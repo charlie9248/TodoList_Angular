@@ -1,0 +1,11 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+:root {
+    --mainBlue: #363636;
+    --lightBlue: #0099fd;
+    --mainWhite: #f3f3f3;
+    --mainDark: #232528;
+    --mainYellow: #fcf7bb;
+    --mainRed: #ff1e56;
+}
+

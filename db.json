@@ -1,0 +1,16 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Polo ",
+      "model": "GTI R4",
+      "year": 455,
+      "price": 4000,
+      "engine": {
+        "fuel": null,
+        "power": 3090,
+        "consumption": 2424
+      }
+    }
+  ]
+}

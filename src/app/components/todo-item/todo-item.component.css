@@ -1,0 +1,36 @@
+
+
+.set-div{
+    background : var(--mainBlue) ;
+    color: var(--mainWhite);
+    border-bottom: 0.01rem solid var(--mainYellow);
+    padding: 0.5rem;
+}
+
+.set-line-through{
+    text-decoration: line-through ;
+}
+
+.div-btn {
+    float: right;
+    background: var(--mainYellow);
+    color: var(--mainBlue);
+    border: none;
+    border-radius: 40%;
+    display: none;
+    transition: all 1s ease-in-out;
+  }
+  
+  .div-btn:hover {
+    background: var(--mainRed);
+    color: var(--mainYellow);
+  }
+
+
+  #todostyle:hover .div-btn {
+    display: block;
+  }
+
+  #todostyle:focus {
+    outline: 'none';
+  }

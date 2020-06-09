@@ -1,0 +1,10 @@
+<div>
+  <app-header></app-header>
+  <app-add-item (onSubmit)="onSubmit($event)"></app-add-item>
+  <app-todo-item 
+  *ngFor="let  todo of todos" 
+   [todo]="todo"
+   (onDelete)="onDelete($event)"
+   ></app-todo-item>
+</div>
+<router-outlet></router-outlet>

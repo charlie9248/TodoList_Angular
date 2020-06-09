@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    margin-bottom: 0.2rem;
+  }
+  
+  form > input[type="text"] {
+    flex: 10;
+  }
+  
+  form > button {
+    flex: 2;
+    color: var(--mainWhite);
+    background: var(--mainBlue);
+    border: none;
+  }
